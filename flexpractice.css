@@ -1,0 +1,22 @@
+p{
+margin: 0;
+}
+.cont{
+    width: 320px;height: 90px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.not1{
+    width: 300px;height: 30px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.button{
+    width: 25px;height: 25px;
+    border: 1px black solid;
+    border-radius: 10px;
+    background-color: lightblue;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Display Exercise
+        </title>
+        <style>
+            .fname{
+                width: 200px;height: 30px;
+                border-radius: 5px;
+            }
+            .lname{
+                width: 200px;height: 30px;
+                border-radius: 5px;
+            }
+            .email{
+                width: 412px;height: 30px;
+                border-radius: 5px;
+                margin-top: 5px;
+                display: block;
+            }
+            .button{
+                display:block;
+                width: 420px;height: 30px;
+                border-radius: 5px;
+                margin-top: 5px;
+                background-color: rgb(64, 64, 202);
+                color: white;
+                cursor: pointer;
+            }
+            .button:hover{
+                background-color: green;
+            }
+            .title{
+                font-size: 20px;
+                font-weight: bold;
+            }
+            .pick,.dest{
+                width: 230px;height: 30px;
+                display: block;
+                margin-bottom: 5px;
+            }
+            .req-but{
+                background-color: black;
+                color : white;
+                height: 30px;margin-top: 15px;
+                cursor: pointer;
+            }
+            .later-but{
+               height: 30px;
+               margin-top: 15px;margin-left: 18px;
+               cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <input class="fname" type="text" placeholder="First name">
+        <input class="lname" type="text" name="last name" id="1" placeholder="Last name">
+        <input class="email" type="text" placeholder="Email">
+        <button class="button">Sign Up</button><br><br>
+
+        <p class="title">
+            Request a ride now
+        </p>
+        <input class="pick" type="text" placeholder="Enter pickup location">
+        <input class="dest" type="text" placeholder="Enter destination">
+        <button class="req-but">
+            Request now
+        </button>
+        <button class="later-but">
+            Schedule for later
+        </button>
+    </body>
+</html>

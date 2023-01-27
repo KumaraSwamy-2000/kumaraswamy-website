@@ -1,0 +1,50 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.cont{
+    display: block;
+    width: 190px;
+   
+}
+.img-cont{
+    width: 190px; 
+}
+.img{
+    width: 100%;
+}
+.profile-desc-cont{
+    display: grid;
+    width: 190px; 
+}
+.profile-stat{
+    display: inline-block;
+    width: 190px;
+}
+.pname{
+    font-weight: bold;
+    display: block;
+}
+.p-pic-cont{
+    width:30px;
+    display: inline-block; 
+}
+.p-pic{
+    height: 30px;width: 30px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.mutual-cont{
+    width: 150px;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 5px; 
+}
+
+.button{
+    background-color: lightskyblue;
+    font:white;
+    border: 1px solid black;
+   border-radius: 5px; 
+
+}

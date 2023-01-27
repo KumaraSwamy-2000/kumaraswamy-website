@@ -1,0 +1,23 @@
+
+.header,.footer{
+    text-align: center;
+}
+body{
+    background-color:lightblue;
+}
+div{
+    margin-left: 30%;
+    text-size-adjust: 6px;
+    padding: 10px;
+    font-size: 18px;
+    font-style: normal;
+}
+div.footer{
+    display: inline;
+}
+input[type=text],input[type="text area"]{
+    width: 200px;
+    padding-left: 10px;
+}
+
+
